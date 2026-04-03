@@ -83,7 +83,7 @@ KEYWORDS = [
 
     # mashina
     'машина керак', 'машина кере', 'машина керeк', 'багажли машина керак', 'машина излаяпман', 'мошина керак',
-    "аелкиши бор", "AYOLLAR BOR"
+    "аелкиши бор", "AYOLLAR BOR", "mashina bor"
 ]
 
 KEYWORDS_RE = re.compile("|".join(re.escape(k) for k in KEYWORDS), re.IGNORECASE)
